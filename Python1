@@ -1,1 +1,9 @@
+#A function that will write a text file to your PC with your name
 
+def create_file():
+  filename="parkhi.txt"
+  name="Parkhi"
+  with open(filename,"w") as file:
+    file.write(name)
+  print("File created.")
+  
