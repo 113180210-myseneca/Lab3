@@ -7,3 +7,6 @@ def create_file():
     file.write(name)
   print("File created.")
   
+def helloWorld():
+  print(‘Hello World’)
+helloWorld()
